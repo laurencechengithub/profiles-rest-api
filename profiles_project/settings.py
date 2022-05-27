@@ -26,8 +26,8 @@ SECRET_KEY = 'l+2fr-rwd31cqz(vct^(!r(thlu#meb5_d0i8jslx8jpn5ltk-'
 DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
 ALLOWED_HOSTS = [
-    'ec2-18-212-138-237.compute-1.amazonaws.com',
-    '127.0.0.1'
+    'ec2-18-236-250-69.us-west-2.compute.amazonaws.com', # git from AWS instance
+    '127.0.0.1' #local host for vagrant
 ]
 
 
